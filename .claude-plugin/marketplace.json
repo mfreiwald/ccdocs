@@ -1,0 +1,18 @@
+{
+  "name": "ccdocs-marketplace",
+  "owner": {
+    "name": "Michael Freiwald"
+  },
+  "metadata": {
+    "description": "Marketplace for Claude Code documentation plugins",
+    "version": "2026.1.1",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "ccdocs",
+      "source": "ccdocs",
+      "description": "Local mirror of Claude Code documentation with auto-updates"
+    }
+  ]
+}

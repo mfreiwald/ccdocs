@@ -1,0 +1,13 @@
+{
+  "name": "ccdocs",
+  "version": "1.0.0",
+  "description": "Local mirror of Claude Code documentation with auto-updates",
+  "author": {
+    "name": "Michael Freiwald",
+    "url": "https://github.com/mfreiwald/ccdocs"
+  },
+  "homepage": "https://github.com/mfreiwald/ccdocs",
+  "repository": "https://github.com/mfreiwald/ccdocs",
+  "license": "MIT",
+  "keywords": ["documentation", "reference", "claude-code", "docs"]
+}
