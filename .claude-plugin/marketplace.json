@@ -5,13 +5,12 @@
   },
   "metadata": {
     "description": "Marketplace for Claude Code documentation plugins",
-    "version": "2026.1.1",
-    "pluginRoot": "./plugins"
+    "version": "2026.1.1"
   },
   "plugins": [
     {
       "name": "ccdocs",
-      "source": "ccdocs",
+      "source": "./plugins/ccdocs",
       "description": "Local mirror of Claude Code documentation with auto-updates"
     }
   ]
