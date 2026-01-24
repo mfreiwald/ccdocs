@@ -41,12 +41,22 @@ jobs:
     - name: Check for changes
       id: verify-changed-files
       run: |
-        if git diff --name-only -- plugins/ccdocs/skills/docs/references/ | grep -q .; then
-          echo "changed=true" >> $GITHUB_OUTPUT
+        echo "docs_changed=false" >> $GITHUB_OUTPUT
+        echo "any_changed=false" >> $GITHUB_OUTPUT
+
+        if git status --porcelain -- plugins/ccdocs/skills/docs/references/ | grep -q .; then
+          echo "docs_changed=true" >> $GITHUB_OUTPUT
+        fi
+
+        if git status --porcelain -- \
+          plugins/ccdocs/skills/docs/references/ \
+          plugins/ccdocs/skills/docs/docs_manifest.json \
+          plugins/ccdocs/.claude-plugin/plugin.json | grep -q .; then
+          echo "any_changed=true" >> $GITHUB_OUTPUT
         fi
 
     - name: Compute release version
-      if: steps.verify-changed-files.outputs.changed == 'true'
+      if: steps.verify-changed-files.outputs.docs_changed == 'true'
       id: release-version
       run: |
         git fetch --tags --quiet
@@ -64,7 +74,7 @@ jobs:
         echo "version=$VERSION" >> $GITHUB_OUTPUT
 
     - name: Update plugin version
-      if: steps.verify-changed-files.outputs.changed == 'true'
+      if: steps.verify-changed-files.outputs.docs_changed == 'true'
       env:
         RELEASE_VERSION: ${{ steps.release-version.outputs.version }}
       run: |
@@ -80,38 +90,42 @@ jobs:
         PY
 
     - name: Generate commit message
-      if: steps.verify-changed-files.outputs.changed == 'true'
+      if: steps.verify-changed-files.outputs.any_changed == 'true'
       id: commit-msg
       env:
+        DOCS_CHANGED: ${{ steps.verify-changed-files.outputs.docs_changed }}
         RELEASE_VERSION: ${{ steps.release-version.outputs.version }}
       run: |
         # Stage changes to see what will be committed
         git add -A plugins/ccdocs/skills/docs/references/ plugins/ccdocs/skills/docs/docs_manifest.json plugins/ccdocs/.claude-plugin/plugin.json
 
-        # Get list of changed files
+        # Get list of changed doc files
         CHANGED_FILES=$(git diff --name-status --cached | grep "^M" | cut -f2 | grep -E "\.md$" | sed 's|plugins/ccdocs/skills/docs/references/||' | paste -sd ", " -)
         ADDED_FILES=$(git diff --name-status --cached | grep "^A" | cut -f2 | grep -E "\.md$" | sed 's|plugins/ccdocs/skills/docs/references/||' | paste -sd ", " -)
         DELETED_FILES=$(git diff --name-status --cached | grep "^D" | cut -f2 | grep -E "\.md$" | sed 's|plugins/ccdocs/skills/docs/references/||' | paste -sd ", " -)
 
-        # Build commit message
-        COMMIT_MSG="Update Claude Code docs - $(date +'%Y-%m-%d') | Release: $RELEASE_VERSION"
+        if [ "$DOCS_CHANGED" = "true" ]; then
+          COMMIT_MSG="Update Claude Code docs - $(date +'%Y-%m-%d') | Release: $RELEASE_VERSION"
 
-        if [ -n "$CHANGED_FILES" ]; then
-          COMMIT_MSG="$COMMIT_MSG | Updated: $CHANGED_FILES"
-        fi
+          if [ -n "$CHANGED_FILES" ]; then
+            COMMIT_MSG="$COMMIT_MSG | Updated: $CHANGED_FILES"
+          fi
 
-        if [ -n "$ADDED_FILES" ]; then
-          COMMIT_MSG="$COMMIT_MSG | Added: $ADDED_FILES"
-        fi
+          if [ -n "$ADDED_FILES" ]; then
+            COMMIT_MSG="$COMMIT_MSG | Added: $ADDED_FILES"
+          fi
 
-        if [ -n "$DELETED_FILES" ]; then
-          COMMIT_MSG="$COMMIT_MSG | Removed: $DELETED_FILES"
+          if [ -n "$DELETED_FILES" ]; then
+            COMMIT_MSG="$COMMIT_MSG | Removed: $DELETED_FILES"
+          fi
+        else
+          COMMIT_MSG="Update Claude Code docs manifest - $(date +'%Y-%m-%d')"
         fi
 
         echo "message=$COMMIT_MSG" >> $GITHUB_OUTPUT
 
     - name: Commit and push if changed
-      if: steps.verify-changed-files.outputs.changed == 'true'
+      if: steps.verify-changed-files.outputs.any_changed == 'true'
       env:
         RELEASE_VERSION: ${{ steps.release-version.outputs.version }}
       run: |
@@ -120,11 +134,13 @@ jobs:
         # Files already staged in previous step
         git commit -m "${{ steps.commit-msg.outputs.message }}"
         git push
-        git tag -a "$RELEASE_VERSION" -m "Release $RELEASE_VERSION"
-        git push origin "$RELEASE_VERSION"
+        if [ "${{ steps.verify-changed-files.outputs.docs_changed }}" = "true" ]; then
+          git tag -a "$RELEASE_VERSION" -m "Release $RELEASE_VERSION"
+          git push origin "$RELEASE_VERSION"
+        fi
 
     - name: Create GitHub release
-      if: steps.verify-changed-files.outputs.changed == 'true'
+      if: steps.verify-changed-files.outputs.docs_changed == 'true'
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         RELEASE_VERSION: ${{ steps.release-version.outputs.version }}
