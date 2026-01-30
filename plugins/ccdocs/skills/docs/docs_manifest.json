@@ -9,8 +9,8 @@
     "analytics.md": {
       "original_url": "https://code.claude.com/docs/en/analytics",
       "original_md_url": "https://code.claude.com/docs/en/analytics.md",
-      "hash": "d6581929bf896c11e6c41e5154366efd5e0fe5abfbb4462c4dfc2644faaa8fd7",
-      "last_updated": "2026-01-29T21:24:35.903296"
+      "hash": "86234b8cd644266ec6cbeb7d5f282da0ea612f4f3dd828b46365617bd2f32338",
+      "last_updated": "2026-01-30T18:38:27.242347"
     },
     "best-practices.md": {
       "original_url": "https://code.claude.com/docs/en/best-practices",
@@ -105,8 +105,8 @@
     "headless.md": {
       "original_url": "https://code.claude.com/docs/en/headless",
       "original_md_url": "https://code.claude.com/docs/en/headless.md",
-      "hash": "d534f05ecf807c074920fc45f66f5beda2a6264a50e339792dd3a191f8f8143e",
-      "last_updated": "2026-01-27T15:28:54.208814"
+      "hash": "00815a715c67ca86199360c61e6c6f135d3905aca0eb88207b4eca58f95d01ef",
+      "last_updated": "2026-01-30T18:38:37.041460"
     },
     "hooks.md": {
       "original_url": "https://code.claude.com/docs/en/hooks",
@@ -315,8 +315,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-01-30T15:31:37.351451",
-    "fetch_duration_seconds": 29.79829,
+    "last_fetch_completed": "2026-01-30T18:38:57.114252",
+    "fetch_duration_seconds": 31.021406,
     "total_pages_discovered": 51,
     "pages_fetched_successfully": 52,
     "pages_failed": 0,
@@ -326,7 +326,7 @@
     "total_files": 52,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-01-30T15:31:37.351460",
+  "last_updated": "2026-01-30T18:38:57.114261",
   "base_url": "https://raw.githubusercontent.com/mfreiwald/ccdocs/main/plugins/ccdocs/skills/docs/references/",
   "github_repository": "mfreiwald/ccdocs",
   "github_ref": "main",
