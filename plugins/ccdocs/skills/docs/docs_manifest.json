@@ -327,14 +327,14 @@
     "changelog.md": {
       "original_url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
       "original_raw_url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md",
-      "hash": "1a535727519396734b81b040e26cee1ac96475a790a287999e24b3697dedca08",
-      "last_updated": "2026-02-07T18:32:06.081065",
+      "hash": "e11f7c44375c2d1f7cf5044f276145810a1719c253561b5c95c94db4a45648e6",
+      "last_updated": "2026-02-07T21:23:23.603746",
       "source": "claude-code-repository"
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-02-07T18:32:06.081098",
-    "fetch_duration_seconds": 32.346218,
+    "last_fetch_completed": "2026-02-07T21:23:23.603768",
+    "fetch_duration_seconds": 31.116517,
     "total_pages_discovered": 54,
     "pages_fetched_successfully": 55,
     "pages_failed": 0,
@@ -344,7 +344,7 @@
     "total_files": 55,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-02-07T18:32:06.081111",
+  "last_updated": "2026-02-07T21:23:23.603778",
   "base_url": "https://raw.githubusercontent.com/mfreiwald/ccdocs/main/plugins/ccdocs/skills/docs/references/",
   "github_repository": "mfreiwald/ccdocs",
   "github_ref": "main",
