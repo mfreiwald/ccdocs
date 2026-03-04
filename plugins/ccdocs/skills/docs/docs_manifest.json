@@ -57,8 +57,8 @@
     "common-workflows.md": {
       "original_url": "https://code.claude.com/docs/en/common-workflows",
       "original_md_url": "https://code.claude.com/docs/en/common-workflows.md",
-      "hash": "e3c77c4c7c661299f154badb669cdda8453881c806e5317b57ca8b1b34517733",
-      "last_updated": "2026-03-04T09:37:52.621409"
+      "hash": "442afbc0280dae442b224e95852bf3496751b7766d87b043df21501cd3a22522",
+      "last_updated": "2026-03-04T18:44:18.433135"
     },
     "costs.md": {
       "original_url": "https://code.claude.com/docs/en/costs",
@@ -201,8 +201,8 @@
     "model-config.md": {
       "original_url": "https://code.claude.com/docs/en/model-config",
       "original_md_url": "https://code.claude.com/docs/en/model-config.md",
-      "hash": "61e093ddb2e9c5af0c20ba7983223d6b270f613be5f1e34a6dcb84482a89f64e",
-      "last_updated": "2026-03-04T09:38:06.192648"
+      "hash": "77994e75ef81439bacc7618b1c924db781623cfecc6592009b7cc4d777c46e6d",
+      "last_updated": "2026-03-04T18:44:32.547690"
     },
     "monitoring-usage.md": {
       "original_url": "https://code.claude.com/docs/en/monitoring-usage",
@@ -357,8 +357,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-03-04T15:38:01.568749",
-    "fetch_duration_seconds": 33.581835,
+    "last_fetch_completed": "2026-03-04T18:44:46.416009",
+    "fetch_duration_seconds": 33.320942,
     "total_pages_discovered": 58,
     "pages_fetched_successfully": 59,
     "pages_failed": 0,
@@ -368,7 +368,7 @@
     "total_files": 59,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-03-04T15:38:01.568760",
+  "last_updated": "2026-03-04T18:44:46.416015",
   "base_url": "https://raw.githubusercontent.com/mfreiwald/ccdocs/main/plugins/ccdocs/skills/docs/references/",
   "github_repository": "mfreiwald/ccdocs",
   "github_ref": "main",
