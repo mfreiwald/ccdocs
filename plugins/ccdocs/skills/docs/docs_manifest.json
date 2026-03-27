@@ -67,6 +67,12 @@
       "hash": "1fd3acbb493a83bf1f043c67651739822664f5d527d311c10b5b22f128d0fd06",
       "last_updated": "2026-03-26T19:01:42.216106"
     },
+    "claude-directory.md": {
+      "original_url": "https://code.claude.com/docs/en/claude-directory",
+      "original_md_url": "https://code.claude.com/docs/en/claude-directory.md",
+      "hash": "a8e5c317f4d906b84cd9e905dd5aec67bfbdf25a923a002eff561d49b17afb84",
+      "last_updated": "2026-03-27T05:04:37.619069"
+    },
     "cli-reference.md": {
       "original_url": "https://code.claude.com/docs/en/cli-reference",
       "original_md_url": "https://code.claude.com/docs/en/cli-reference.md",
@@ -76,8 +82,8 @@
     "code-review.md": {
       "original_url": "https://code.claude.com/docs/en/code-review",
       "original_md_url": "https://code.claude.com/docs/en/code-review.md",
-      "hash": "6c4b830900ad8ac122d933a3d2244b52c994404eec9308d8af50c284d79197f7",
-      "last_updated": "2026-03-18T06:59:08.001463"
+      "hash": "f80ebd85c8728723eb9603d2370abe26b741a792a5c1691532de9c47814c69c7",
+      "last_updated": "2026-03-27T05:04:38.782808"
     },
     "commands.md": {
       "original_url": "https://code.claude.com/docs/en/commands",
@@ -250,8 +256,8 @@
     "monitoring-usage.md": {
       "original_url": "https://code.claude.com/docs/en/monitoring-usage",
       "original_md_url": "https://code.claude.com/docs/en/monitoring-usage.md",
-      "hash": "558215a8b955a6a7aa544ef747a3e157c441bf18eb6f8b9ef04fbfb885eb6263",
-      "last_updated": "2026-03-25T21:36:26.680063"
+      "hash": "f3cb10aa82732ab500f4873f74b03b6d9cc7cc1f2f4e7017e56f4b135d0c2e72",
+      "last_updated": "2026-03-27T05:04:55.249461"
     },
     "network-config.md": {
       "original_url": "https://code.claude.com/docs/en/network-config",
@@ -429,18 +435,18 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-03-27T02:06:33.939585",
-    "fetch_duration_seconds": 42.275183,
-    "total_pages_discovered": 71,
-    "pages_fetched_successfully": 72,
+    "last_fetch_completed": "2026-03-27T05:05:11.948498",
+    "fetch_duration_seconds": 41.007329,
+    "total_pages_discovered": 72,
+    "pages_fetched_successfully": 73,
     "pages_failed": 0,
     "failed_pages": [],
     "sitemap_url": "https://code.claude.com/docs/sitemap.xml",
     "base_url": "https://code.claude.com",
-    "total_files": 71,
+    "total_files": 72,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-03-27T02:06:33.939595",
+  "last_updated": "2026-03-27T05:05:11.948508",
   "base_url": "https://raw.githubusercontent.com/mfreiwald/ccdocs/main/plugins/ccdocs/skills/docs/references/",
   "github_repository": "mfreiwald/ccdocs",
   "github_ref": "main",
