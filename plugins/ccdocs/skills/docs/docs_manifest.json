@@ -112,8 +112,8 @@
     "data-usage.md": {
       "original_url": "https://code.claude.com/docs/en/data-usage",
       "original_md_url": "https://code.claude.com/docs/en/data-usage.md",
-      "hash": "4de256b82c6690b99c44dd64512db0a79d95268a3b9564177e19e3a0b9bfcff9",
-      "last_updated": "2026-03-18T13:05:47.738828"
+      "hash": "ea7c79758a09cf6825a502dac477f12a91901a22c614c260ecfc498cc66f7930",
+      "last_updated": "2026-03-28T15:28:28.796844"
     },
     "desktop.md": {
       "original_url": "https://code.claude.com/docs/en/desktop",
@@ -142,8 +142,8 @@
     "env-vars.md": {
       "original_url": "https://code.claude.com/docs/en/env-vars",
       "original_md_url": "https://code.claude.com/docs/en/env-vars.md",
-      "hash": "f071af9f991b5031d89c590b9c9d3e2e2bceb3e255b3792e958e60a56eb040a6",
-      "last_updated": "2026-03-27T15:51:11.983943"
+      "hash": "3676bb7a88aab0dce2bb4e877014e5372f2c76781a7d94585cdef99f028c9a08",
+      "last_updated": "2026-03-28T15:28:31.706178"
     },
     "fast-mode.md": {
       "original_url": "https://code.claude.com/docs/en/fast-mode",
@@ -190,8 +190,8 @@
     "hooks-guide.md": {
       "original_url": "https://code.claude.com/docs/en/hooks-guide",
       "original_md_url": "https://code.claude.com/docs/en/hooks-guide.md",
-      "hash": "716f56dba0ccbc1034453a385d825a7878e39021960af9724ed5f53cc20d74cd",
-      "last_updated": "2026-03-27T18:52:47.454699"
+      "hash": "99a1bde74138f78c78d6e2a55d042b0aa6a3deb5539177f86e465c650120de85",
+      "last_updated": "2026-03-28T15:28:37.022464"
     },
     "how-claude-code-works.md": {
       "original_url": "https://code.claude.com/docs/en/how-claude-code-works",
@@ -214,8 +214,8 @@
     "keybindings.md": {
       "original_url": "https://code.claude.com/docs/en/keybindings",
       "original_md_url": "https://code.claude.com/docs/en/keybindings.md",
-      "hash": "55dcb4de208f78c206bfcf0db33ff09b8ebf836d7cd026eef1b7cfac53984a2d",
-      "last_updated": "2026-03-26T16:10:13.451497"
+      "hash": "dede16a20ab2c735bb8df3f8b33c6031c2a5bb5aed1aa77d207903cdbba06663",
+      "last_updated": "2026-03-28T15:28:39.338963"
     },
     "legal-and-compliance.md": {
       "original_url": "https://code.claude.com/docs/en/legal-and-compliance",
@@ -435,8 +435,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-03-28T12:51:01.277500",
-    "fetch_duration_seconds": 40.776968,
+    "last_fetch_completed": "2026-03-28T15:29:00.388744",
+    "fetch_duration_seconds": 44.097517,
     "total_pages_discovered": 72,
     "pages_fetched_successfully": 73,
     "pages_failed": 0,
@@ -446,7 +446,7 @@
     "total_files": 72,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-03-28T12:51:01.277508",
+  "last_updated": "2026-03-28T15:29:00.388754",
   "base_url": "https://raw.githubusercontent.com/mfreiwald/ccdocs/main/plugins/ccdocs/skills/docs/references/",
   "github_repository": "mfreiwald/ccdocs",
   "github_ref": "main",
