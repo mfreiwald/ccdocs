@@ -1,6 +1,6 @@
 {
   "name": "ccdocs",
-  "version": "2026.3.84",
+  "version": "2026.3.85",
   "description": "Local mirror of Claude Code documentation with auto-updates",
   "author": {
     "name": "Michael Freiwald",
