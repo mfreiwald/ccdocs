@@ -160,8 +160,8 @@
     "fast-mode.md": {
       "original_url": "https://code.claude.com/docs/en/fast-mode",
       "original_md_url": "https://code.claude.com/docs/en/fast-mode.md",
-      "hash": "f1d458ae23db0f577a786718cc387190f4efbc020d4d7a6818b23b8064c94810",
-      "last_updated": "2026-04-08T05:08:55.676094"
+      "hash": "6741462f186f5a68e9a9700f6dfe2b0d6aac30e7cb8c916881c78ab9f28d1bb3",
+      "last_updated": "2026-04-08T13:15:37.101086"
     },
     "features-overview.md": {
       "original_url": "https://code.claude.com/docs/en/features-overview",
@@ -483,8 +483,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-04-08T10:06:15.948263",
-    "fetch_duration_seconds": 45.287945,
+    "last_fetch_completed": "2026-04-08T13:16:10.955250",
+    "fetch_duration_seconds": 51.045293,
     "total_pages_discovered": 80,
     "pages_fetched_successfully": 81,
     "pages_failed": 0,
@@ -494,7 +494,7 @@
     "total_files": 80,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-04-08T10:06:15.948270",
+  "last_updated": "2026-04-08T13:16:10.955259",
   "base_url": "https://raw.githubusercontent.com/mfreiwald/ccdocs/main/plugins/ccdocs/skills/docs/references/",
   "github_repository": "mfreiwald/ccdocs",
   "github_ref": "main",
