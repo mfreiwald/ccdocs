@@ -60,6 +60,12 @@
       "hash": "e511a8d79c07e66369c683e410dd79cb9a1b87ba6702f70a64161f56ece4c003",
       "last_updated": "2026-04-08T19:12:29.441387"
     },
+    "agent-sdk__observability.md": {
+      "original_url": "https://code.claude.com/docs/en/agent-sdk/observability",
+      "original_md_url": "https://code.claude.com/docs/en/agent-sdk/observability.md",
+      "hash": "c929a4b2401cfc2659af5a72e637647343943120adae8da5f87660a48edd3763",
+      "last_updated": "2026-04-08T21:38:46.083912"
+    },
     "agent-sdk__overview.md": {
       "original_url": "https://code.claude.com/docs/en/agent-sdk/overview",
       "original_md_url": "https://code.claude.com/docs/en/agent-sdk/overview.md",
@@ -556,8 +562,8 @@
     "skills.md": {
       "original_url": "https://code.claude.com/docs/en/skills",
       "original_md_url": "https://code.claude.com/docs/en/skills.md",
-      "hash": "01e693280afe2cd36529793f852e4fc7b5b75fb455a2e224083e10b0e172d995",
-      "last_updated": "2026-04-08T19:13:18.378477"
+      "hash": "9c060f5d4a05a34e9fe79e3fa4a5f61fc89caeefd9c46c27e378c3d778c9b05f",
+      "last_updated": "2026-04-08T21:39:33.812281"
     },
     "slack.md": {
       "original_url": "https://code.claude.com/docs/en/slack",
@@ -657,18 +663,18 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-04-08T19:13:27.924411",
-    "fetch_duration_seconds": 64.185235,
-    "total_pages_discovered": 109,
-    "pages_fetched_successfully": 110,
+    "last_fetch_completed": "2026-04-08T21:39:43.080333",
+    "fetch_duration_seconds": 62.942528,
+    "total_pages_discovered": 110,
+    "pages_fetched_successfully": 111,
     "pages_failed": 0,
     "failed_pages": [],
     "sitemap_url": "https://code.claude.com/docs/sitemap.xml",
     "base_url": "https://code.claude.com",
-    "total_files": 109,
+    "total_files": 110,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-04-08T19:13:27.924423",
+  "last_updated": "2026-04-08T21:39:43.080339",
   "base_url": "https://raw.githubusercontent.com/mfreiwald/ccdocs/main/plugins/ccdocs/skills/docs/references/",
   "github_repository": "mfreiwald/ccdocs",
   "github_ref": "main",
