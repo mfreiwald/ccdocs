@@ -472,8 +472,8 @@
     "overview.md": {
       "original_url": "https://code.claude.com/docs/en/overview",
       "original_md_url": "https://code.claude.com/docs/en/overview.md",
-      "hash": "0d39d7ac0901b24074983c6eccb718d8ff08eff4a65a1f4f5a5652b1da255252",
-      "last_updated": "2026-04-10T07:24:13.866334"
+      "hash": "2f259d6105dcd22fca950421ab7b0891bb7afa49de041873ce2964ae8a35dfad",
+      "last_updated": "2026-04-13T21:45:04.690319"
     },
     "permission-modes.md": {
       "original_url": "https://code.claude.com/docs/en/permission-modes",
@@ -514,8 +514,8 @@
     "quickstart.md": {
       "original_url": "https://code.claude.com/docs/en/quickstart",
       "original_md_url": "https://code.claude.com/docs/en/quickstart.md",
-      "hash": "0db1fd327282fbbd7f83379b14aaca8146863a8e89a004c715baf35653037684",
-      "last_updated": "2026-04-10T07:24:18.060851"
+      "hash": "5027dc756e626aeb163bb38bbdb106e4d07c866bb2a3d8dedf713d14ff8b4255",
+      "last_updated": "2026-04-13T21:45:08.956230"
     },
     "remote-control.md": {
       "original_url": "https://code.claude.com/docs/en/remote-control",
@@ -556,8 +556,8 @@
     "setup.md": {
       "original_url": "https://code.claude.com/docs/en/setup",
       "original_md_url": "https://code.claude.com/docs/en/setup.md",
-      "hash": "2d368376e5bcaa4a63e262ab30c4f62d24a22ce478a90c5987611842310396de",
-      "last_updated": "2026-04-10T07:24:22.211196"
+      "hash": "7958dc4b019fe535bb21a72d3159093570646da5e807aa493bf9a5687497750a",
+      "last_updated": "2026-04-13T21:45:13.202154"
     },
     "skills.md": {
       "original_url": "https://code.claude.com/docs/en/skills",
@@ -586,8 +586,8 @@
     "terminal-config.md": {
       "original_url": "https://code.claude.com/docs/en/terminal-config",
       "original_md_url": "https://code.claude.com/docs/en/terminal-config.md",
-      "hash": "1464cb40560383b0816ea04f6ed189b728e37550b5afda09491e43602887aea2",
-      "last_updated": "2026-04-10T02:13:48.244862"
+      "hash": "85c301d5b2e4f9a3e791b6b0edab81eaf3571f512fd6c93d2c76475bf963de5a",
+      "last_updated": "2026-04-13T21:45:16.270752"
     },
     "third-party-integrations.md": {
       "original_url": "https://code.claude.com/docs/en/third-party-integrations",
@@ -640,8 +640,8 @@
     "whats-new.md": {
       "original_url": "https://code.claude.com/docs/en/whats-new",
       "original_md_url": "https://code.claude.com/docs/en/whats-new.md",
-      "hash": "ac388e503598d8beabdb9ca952efea46ff159b70e593dcfe7404a38950d401c4",
-      "last_updated": "2026-04-10T02:13:53.671308"
+      "hash": "07648ca1b61f7ce36aa720128b549182bfbdb898ff3ba4eefd4ee4cfa13f7622",
+      "last_updated": "2026-04-13T21:45:21.865147"
     },
     "whats-new__2026-w13.md": {
       "original_url": "https://code.claude.com/docs/en/whats-new/2026-w13",
@@ -655,6 +655,12 @@
       "hash": "bb0e686ee09318e629de4dba6cb53fc8b59faa853af02afad17623812ba5b9e4",
       "last_updated": "2026-04-10T02:13:54.843389"
     },
+    "whats-new__2026-w15.md": {
+      "original_url": "https://code.claude.com/docs/en/whats-new/2026-w15",
+      "original_md_url": "https://code.claude.com/docs/en/whats-new/2026-w15.md",
+      "hash": "be4823a37ed074c62ec3ea4ff35e70328d3944bb7b932d646a27bd52afc6cfb2",
+      "last_updated": "2026-04-13T21:45:23.737658"
+    },
     "zero-data-retention.md": {
       "original_url": "https://code.claude.com/docs/en/zero-data-retention",
       "original_md_url": "https://code.claude.com/docs/en/zero-data-retention.md",
@@ -663,18 +669,18 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-04-13T19:12:45.086247",
-    "fetch_duration_seconds": 76.111742,
-    "total_pages_discovered": 110,
-    "pages_fetched_successfully": 111,
+    "last_fetch_completed": "2026-04-13T21:45:24.465316",
+    "fetch_duration_seconds": 67.762939,
+    "total_pages_discovered": 111,
+    "pages_fetched_successfully": 112,
     "pages_failed": 0,
     "failed_pages": [],
     "sitemap_url": "https://code.claude.com/docs/sitemap.xml",
     "base_url": "https://code.claude.com",
-    "total_files": 110,
+    "total_files": 111,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-04-13T19:12:45.086260",
+  "last_updated": "2026-04-13T21:45:24.465327",
   "base_url": "https://raw.githubusercontent.com/mfreiwald/ccdocs/main/plugins/ccdocs/skills/docs/references/",
   "github_repository": "mfreiwald/ccdocs",
   "github_ref": "main",
