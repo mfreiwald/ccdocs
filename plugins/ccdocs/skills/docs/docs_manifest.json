@@ -75,8 +75,8 @@
     "agent-sdk__overview.md": {
       "original_url": "https://code.claude.com/docs/en/agent-sdk/overview",
       "original_md_url": "https://code.claude.com/docs/en/agent-sdk/overview.md",
-      "hash": "b27888bae229439e293d0e9a523fdeabc702c9da3a8bb48b505f46d68a672456",
-      "last_updated": "2026-04-17T21:39:04.112598"
+      "hash": "34580159869e1ab7be7064f33a1a7024757aec6771e4b6027fc089961b9c8cae",
+      "last_updated": "2026-04-28T21:54:53.234550"
     },
     "agent-sdk__permissions.md": {
       "original_url": "https://code.claude.com/docs/en/agent-sdk/permissions",
@@ -735,8 +735,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-04-28T19:29:44.964588",
-    "fetch_duration_seconds": 74.332024,
+    "last_fetch_completed": "2026-04-28T21:55:52.826695",
+    "fetch_duration_seconds": 66.431557,
     "total_pages_discovered": 122,
     "pages_fetched_successfully": 123,
     "pages_failed": 0,
@@ -746,7 +746,7 @@
     "total_files": 122,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-04-28T19:29:44.964600",
+  "last_updated": "2026-04-28T21:55:52.826705",
   "base_url": "https://raw.githubusercontent.com/mfreiwald/ccdocs/main/plugins/ccdocs/skills/docs/references/",
   "github_repository": "mfreiwald/ccdocs",
   "github_ref": "main",
