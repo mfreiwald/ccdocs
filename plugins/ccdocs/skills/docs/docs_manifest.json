@@ -658,8 +658,8 @@
     "troubleshoot-install.md": {
       "original_url": "https://code.claude.com/docs/en/troubleshoot-install",
       "original_md_url": "https://code.claude.com/docs/en/troubleshoot-install.md",
-      "hash": "b3859c46b9ba2bf820f9a429090c8e37137cc4325fcc715ce740e894dd8d1108",
-      "last_updated": "2026-04-29T02:41:08.263465"
+      "hash": "45ccaf0ec0898693a10408a29942ef504e665e8e5df0280e849008f2e73a9701",
+      "last_updated": "2026-04-29T19:21:54.184339"
     },
     "troubleshooting.md": {
       "original_url": "https://code.claude.com/docs/en/troubleshooting",
@@ -741,8 +741,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-04-29T16:26:55.292045",
-    "fetch_duration_seconds": 67.496043,
+    "last_fetch_completed": "2026-04-29T19:22:01.424092",
+    "fetch_duration_seconds": 67.097931,
     "total_pages_discovered": 123,
     "pages_fetched_successfully": 124,
     "pages_failed": 0,
@@ -752,7 +752,7 @@
     "total_files": 123,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-04-29T16:26:55.292057",
+  "last_updated": "2026-04-29T19:22:01.424103",
   "base_url": "https://raw.githubusercontent.com/mfreiwald/ccdocs/main/plugins/ccdocs/skills/docs/references/",
   "github_repository": "mfreiwald/ccdocs",
   "github_ref": "main",
