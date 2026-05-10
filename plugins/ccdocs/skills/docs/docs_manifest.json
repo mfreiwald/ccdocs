@@ -436,8 +436,8 @@
     "hooks-guide.md": {
       "original_url": "https://code.claude.com/docs/en/hooks-guide",
       "original_md_url": "https://code.claude.com/docs/en/hooks-guide.md",
-      "hash": "ccd1639a9d75881ff461746c92514826d6dc1e2ba49b5c6e167c1de3acc172df",
-      "last_updated": "2026-05-04T21:57:45.805367"
+      "hash": "6507f3a52100ae36531053973b22f7de7ce367c729cef77e5cad89bda5209876",
+      "last_updated": "2026-05-10T18:59:27.146464"
     },
     "how-claude-code-works.md": {
       "original_url": "https://code.claude.com/docs/en/how-claude-code-works",
@@ -759,8 +759,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-10T15:51:49.173409",
-    "fetch_duration_seconds": 68.59639,
+    "last_fetch_completed": "2026-05-10T18:59:55.236498",
+    "fetch_duration_seconds": 66.813874,
     "total_pages_discovered": 126,
     "pages_fetched_successfully": 127,
     "pages_failed": 0,
@@ -770,7 +770,7 @@
     "total_files": 126,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-05-10T15:51:49.173420",
+  "last_updated": "2026-05-10T18:59:55.236508",
   "base_url": "https://raw.githubusercontent.com/mfreiwald/ccdocs/main/plugins/ccdocs/skills/docs/references/",
   "github_repository": "mfreiwald/ccdocs",
   "github_ref": "main",
