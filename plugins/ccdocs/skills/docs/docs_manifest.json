@@ -831,8 +831,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-20T17:55:00.657416",
-    "fetch_duration_seconds": 75.814409,
+    "last_fetch_completed": "2026-05-20T20:12:57.542367",
+    "fetch_duration_seconds": 75.657929,
     "total_pages_discovered": 138,
     "pages_fetched_successfully": 139,
     "pages_failed": 0,
@@ -842,7 +842,7 @@
     "total_files": 138,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-05-20T17:55:00.657427",
+  "last_updated": "2026-05-20T20:12:57.542375",
   "base_url": "https://raw.githubusercontent.com/mfreiwald/ccdocs/main/plugins/ccdocs/skills/docs/references/",
   "github_repository": "mfreiwald/ccdocs",
   "github_ref": "main",
