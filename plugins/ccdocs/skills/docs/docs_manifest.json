@@ -520,8 +520,8 @@
     "mcp.md": {
       "original_url": "https://code.claude.com/docs/en/mcp",
       "original_md_url": "https://code.claude.com/docs/en/mcp.md",
-      "hash": "a3cded050f65ee11346191e627436cb0834cfd42d8c87846cd4d9e284ffd1b69",
-      "last_updated": "2026-05-29T02:56:32.787939"
+      "hash": "509b628310fa6b01ebc94309c1e557059b75d4e263bfeeb0a7068bcd66bc726f",
+      "last_updated": "2026-05-29T18:14:49.289252"
     },
     "memory.md": {
       "original_url": "https://code.claude.com/docs/en/memory",
@@ -598,8 +598,8 @@
     "plugin-marketplaces.md": {
       "original_url": "https://code.claude.com/docs/en/plugin-marketplaces",
       "original_md_url": "https://code.claude.com/docs/en/plugin-marketplaces.md",
-      "hash": "f63b02451ec91045d89197e32bc55f2e3a329392d2e7821e1363373cc401af31",
-      "last_updated": "2026-05-29T02:56:44.790790"
+      "hash": "7366bb344b899c7be72355c5f94406dd3bd3a47a854caa35c35e1e506a4f2f37",
+      "last_updated": "2026-05-29T18:15:23.995712"
     },
     "plugins.md": {
       "original_url": "https://code.claude.com/docs/en/plugins",
@@ -855,8 +855,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-29T12:14:45.477701",
-    "fetch_duration_seconds": 118.75869,
+    "last_fetch_completed": "2026-05-29T18:16:44.391333",
+    "fetch_duration_seconds": 364.097163,
     "total_pages_discovered": 142,
     "pages_fetched_successfully": 143,
     "pages_failed": 0,
@@ -866,7 +866,7 @@
     "total_files": 142,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-05-29T12:14:45.477711",
+  "last_updated": "2026-05-29T18:16:44.391343",
   "base_url": "https://raw.githubusercontent.com/mfreiwald/ccdocs/main/plugins/ccdocs/skills/docs/references/",
   "github_repository": "mfreiwald/ccdocs",
   "github_ref": "main",
