@@ -496,8 +496,8 @@
     "desktop.md": {
       "original_url": "https://code.claude.com/docs/en/desktop",
       "original_md_url": "https://code.claude.com/docs/en/desktop.md",
-      "hash": "9b3269d46f57b86db6b03abe652f458c9c4ab298bc3b4e5b8ddbeca0614637e3",
-      "last_updated": "2026-10-30T19:50:22.945846"
+      "hash": "0b9c66683c20346bccce5edf45162f1945d19b7db29ee115626819e17dfdfe67",
+      "last_updated": "2026-10-31T00:21:09.268510"
     },
     "desktop-ios-simulator.md": {
       "original_url": "https://code.claude.com/docs/en/desktop-ios-simulator",
@@ -1186,8 +1186,8 @@
     "vs-code.md": {
       "original_url": "https://code.claude.com/docs/en/vs-code",
       "original_md_url": "https://code.claude.com/docs/en/vs-code.md",
-      "hash": "662a4fa3e5c76520530cc063d9c997d9d8fc5a5f1cdceb9382c0a8186433d3bc",
-      "last_updated": "2026-10-30T19:51:25.655373"
+      "hash": "958a5bcaacc76f4fa16a52c9ef0d5b70c057a8dc94cce0cf919c21a745697f1d",
+      "last_updated": "2026-10-31T00:22:13.800010"
     },
     "web-quickstart.md": {
       "original_url": "https://code.claude.com/docs/en/web-quickstart",
@@ -1365,8 +1365,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-10-30T19:51:41.350696",
-    "fetch_duration_seconds": 123.236464,
+    "last_fetch_completed": "2026-10-31T00:22:30.012809",
+    "fetch_duration_seconds": 126.98943,
     "total_pages_discovered": 227,
     "pages_fetched_successfully": 228,
     "pages_failed": 0,
@@ -1376,7 +1376,7 @@
     "total_files": 227,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-10-30T19:51:41.350708",
+  "last_updated": "2026-10-31T00:22:30.012820",
   "base_url": "https://raw.githubusercontent.com/mfreiwald/ccdocs/main/plugins/ccdocs/skills/docs/references/",
   "github_repository": "mfreiwald/ccdocs",
   "github_ref": "main",
