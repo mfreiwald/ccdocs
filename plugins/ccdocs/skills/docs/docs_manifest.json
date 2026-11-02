@@ -496,8 +496,8 @@
     "desktop.md": {
       "original_url": "https://code.claude.com/docs/en/desktop",
       "original_md_url": "https://code.claude.com/docs/en/desktop.md",
-      "hash": "0b9c66683c20346bccce5edf45162f1945d19b7db29ee115626819e17dfdfe67",
-      "last_updated": "2026-10-31T00:21:09.268510"
+      "hash": "cac6a537e446076c84954dd7264ca62a5ffff40928db1cfa608adaf8c6e564d4",
+      "last_updated": "2026-11-02T00:12:38.740953"
     },
     "desktop-ios-simulator.md": {
       "original_url": "https://code.claude.com/docs/en/desktop-ios-simulator",
@@ -1365,8 +1365,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-11-01T19:22:41.654487",
-    "fetch_duration_seconds": 132.0288,
+    "last_fetch_completed": "2026-11-02T00:13:59.042240",
+    "fetch_duration_seconds": 126.04239,
     "total_pages_discovered": 227,
     "pages_fetched_successfully": 228,
     "pages_failed": 0,
@@ -1376,7 +1376,7 @@
     "total_files": 227,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-11-01T19:22:41.654495",
+  "last_updated": "2026-11-02T00:13:59.042251",
   "base_url": "https://raw.githubusercontent.com/mfreiwald/ccdocs/main/plugins/ccdocs/skills/docs/references/",
   "github_repository": "mfreiwald/ccdocs",
   "github_ref": "main",
