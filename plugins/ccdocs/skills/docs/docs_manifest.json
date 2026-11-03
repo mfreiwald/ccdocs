@@ -1114,8 +1114,8 @@
     "setup.md": {
       "original_url": "https://code.claude.com/docs/en/setup",
       "original_md_url": "https://code.claude.com/docs/en/setup.md",
-      "hash": "652872f26cfd711c4f92351b1ef8338d3f0b6140024c246c42edcbcbdfea172d",
-      "last_updated": "2026-11-01T19:22:17.163092"
+      "hash": "4c3cd110ffc0f00002b70a42ab0b6dc82f193cce52c9666c1184b33d98cd1471",
+      "last_updated": "2026-11-03T20:46:49.426518"
     },
     "skills.md": {
       "original_url": "https://code.claude.com/docs/en/skills",
@@ -1365,8 +1365,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-11-03T13:36:29.774943",
-    "fetch_duration_seconds": 125.74069,
+    "last_fetch_completed": "2026-11-03T20:47:12.834924",
+    "fetch_duration_seconds": 129.969397,
     "total_pages_discovered": 227,
     "pages_fetched_successfully": 228,
     "pages_failed": 0,
@@ -1376,7 +1376,7 @@
     "total_files": 227,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-11-03T13:36:29.774951",
+  "last_updated": "2026-11-03T20:47:12.834933",
   "base_url": "https://raw.githubusercontent.com/mfreiwald/ccdocs/main/plugins/ccdocs/skills/docs/references/",
   "github_repository": "mfreiwald/ccdocs",
   "github_ref": "main",
