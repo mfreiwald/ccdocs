@@ -658,8 +658,8 @@
     "jetbrains.md": {
       "original_url": "https://code.claude.com/docs/en/jetbrains",
       "original_md_url": "https://code.claude.com/docs/en/jetbrains.md",
-      "hash": "1af2bb66618140841118e0cff7149bcf6223d1c003a6fbc1f934ff1377f9a1da",
-      "last_updated": "2026-10-30T19:50:37.697801"
+      "hash": "488a0cba98c2e6dfcd168cbe39bff43c5e374e02b1889ec708a712ec38992a01",
+      "last_updated": "2026-11-03T13:35:24.938687"
     },
     "keybindings.md": {
       "original_url": "https://code.claude.com/docs/en/keybindings",
@@ -1365,8 +1365,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-11-03T05:16:16.114294",
-    "fetch_duration_seconds": 126.648008,
+    "last_fetch_completed": "2026-11-03T13:36:29.774943",
+    "fetch_duration_seconds": 125.74069,
     "total_pages_discovered": 227,
     "pages_fetched_successfully": 228,
     "pages_failed": 0,
@@ -1376,7 +1376,7 @@
     "total_files": 227,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-11-03T05:16:16.114307",
+  "last_updated": "2026-11-03T13:36:29.774951",
   "base_url": "https://raw.githubusercontent.com/mfreiwald/ccdocs/main/plugins/ccdocs/skills/docs/references/",
   "github_repository": "mfreiwald/ccdocs",
   "github_ref": "main",
