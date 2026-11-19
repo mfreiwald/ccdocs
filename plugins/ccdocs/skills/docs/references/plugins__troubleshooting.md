@@ -90,7 +90,7 @@ Several command spellings are in use that Claude Code doesn't have. The table be
 | `claude plugin install <plugin> --project` | `error: unknown option '--project'` | `claude plugin install <plugin>@<marketplace> --scope project` |
 | `/install <plugin>` | `Unknown command: /install` | `/plugin install <plugin>@<marketplace>` |
 | `/plugin add <source>` | The `/plugin` panel opens on the **Discover** tab | `/plugin marketplace add <source>` |
-| `marketplace.anthropic.com` as a source | `Invalid marketplace source format. Try: owner/repo, https://..., or ./path` | `anthropics/claude-plugins-official` for the official marketplace |
+| `marketplace.anthropic.com` as a source | `Invalid marketplace source format` or `That isn't a marketplace source` | `anthropics/claude-plugins-official` for the official marketplace |
 
 These spellings look wrong but work:
 
@@ -143,7 +143,7 @@ If you already added the marketplace, check the spelling against `/plugin market
 
 ### `Invalid marketplace source format`
 
-You ran `/plugin marketplace add <source>`, `claude plugin marketplace add <source>`, or `claude plugin install <plugin> --marketplace <source>`, and Claude Code replied `Invalid marketplace source format. Try: owner/repo, https://..., or ./path`.
+You ran `/plugin marketplace add <source>`, `claude plugin marketplace add <source>`, or `claude plugin install <plugin> --marketplace <source>`. Claude Code replied `Invalid marketplace source format` or `That isn't a marketplace source`.
 
 Claude Code accepts a source in one of these forms:
 
@@ -559,7 +559,7 @@ Two sources match when they have the same type and the same value in every field
 
 Before v2.1.287, the message read `Cannot add marketplace "<name>": its network source differs from the one declared for it in settings (kind, target, or a fetch-shaping field such as headers / ref / path / sparsePaths)`.
 
-### `Failed to install: <plugin> (<reason>)`
+### `Couldn't install: <plugin> (<reason>)` or `Failed to install: <plugin> (<reason>)`
 
 You selected plugins to install in the `/plugin` menu, none of them installed, and the menu closed with this summary of what failed.
 
@@ -752,7 +752,7 @@ To opt out of a project-enabled plugin on your machine, set the id to `false` in
 
 If `claude plugin list` instead marks the plugin `required by your org`, no settings file is involved: your organization marks that synced plugin as required on claude.ai, and it loads even if you disabled it earlier. See [Plugins synced from claude.ai](https://code.claude.com/docs/en/plugins/loading.md#synced-plugins).
 
-### `Plugin "<name>" is enabled in project settings but isn't installed here`
+### `Plugin "<name>" is on in project settings but isn't installed here`
 
 The **Errors** tab shows this line for a plugin your project's `.claude/settings.json` enables, with the guidance `Run claude plugin install <name>@<marketplace> --scope project to install it for this project`.
 
@@ -828,7 +828,7 @@ claude plugin update formatter@my-marketplace --scope project
 
 If the block still shows `unknown` after the rerun, see [Get more help](https://code.claude.com/docs/en/troubleshooting.md#get-more-help).
 
-### `Failed to load hooks from <path>` and hooks that don't fire
+### `Couldn't load hooks from <path>` and hooks that don't fire
 
 A plugin's hooks don't run, or one blocks an action. Either the **Errors** tab shows a load failure for them, the hooks load and you see `<Event> hook error` notices or a blocking error in the transcript, or a hook loads without error and never fires.
 
@@ -836,7 +836,7 @@ A plugin's hooks don't run, or one blocks an action. Either the **Errors** tab s
 
 The **Errors** tab shows one of these messages:
 
-* **`Failed to load hooks from <path>: <reason>`**: `hooks/hooks.json` isn't valid JSON or fails the hooks schema. The reason names the parse or validation error. Fix the file. To catch a JSON syntax problem in `hooks/hooks.json` before you publish the plugin, run `claude plugin validate <plugin-directory>` in your shell
+* **`Couldn't load hooks from <path>: <reason>`** or **`Failed to load hooks from <path>: <reason>`**: fix the problem that `<reason>` names, such as invalid JSON or a missing top-level `hooks` key. To catch a JSON syntax problem in `hooks/hooks.json` before you publish the plugin, run `claude plugin validate <plugin-directory>` in your shell
 * **`hooks path not found: <path>`**: the manifest's `hooks` field names a file that doesn't exist at that path relative to the plugin root. Fix the path or add the file
 * **`hooks path escapes plugin directory: <path>`**: see [Path escapes plugin directory](https://code.claude.com/docs/en/errors.md#path-escapes-plugin-directory)
 
